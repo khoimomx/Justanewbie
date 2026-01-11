@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: aqua;
+    padding: 16px;
+
+}
+
+section{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figure {
+    margin: 0;
+}
+table , tr, th, td, caption {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 10px;
+}
+article{
+    margin-bottom: 20px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 22px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+.logo {
+    font-size: 28px;
+    flex:1;
+    margin: 0;
+}
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+    main{
+        grid-template-columns: 1fr;
+    }
+}

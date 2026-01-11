@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Khoi mom" content="Basic HTML Page about Khoi">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="imgg/Html.png">
+</head>
+<body>
+    <main class="layout">
+        
+        <nav class="navbar">
+            <h1 class="logo">Somethings interesting about me</h1>
+            <ul class="menu">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#Show">Interesting</a></li>
+                <li><a href="#Holiday">Schedule</a></li>
+                <li><a href="#Contact">Contact me</a></li>
+            </ul>
+        </nav> 
+        <hr>
+        <section id="introduction">
+            <h2>Khoi mom</h2>
+            <hr>
+            <p> 
+                My name is Khoi, i am 19 Vietnamese years old. I am currently a student at PTIT marjoring in Fintech.
+            </p>
+            <p> 
+                I have a passion for coding and technology, and I enjoy learning new programming languages and frameworks.</p> 
+
+            <p>  
+                In my free time, I like to learn more about trading and reading stock market news.I often watch movies and play games to relax and unwind.
+            </p>
+
+        </section>
+        <section id="Show">
+            <h2>Show st interesting</h2>
+            <hr>
+            <article>
+                <h3>Codegame</h3>
+                <p>
+                    I will show you some codegame that i have done
+                </p>
+                <a href="flappybirdd.python.py">Flappy Bird Game</a>
+                <p>
+                    In case you want to try this game, you need to have python installed on your computer. After that, you can download the code and run it using a python IDE or the command line.
+                    Also, you may need to install the Pygame library if you don't have it already. You can do this by running pip install pygame in your command line.
+                    And finally, you can run the game by executing the python file.
+                    I have a guide down below that you can follow to set up and play the game
+                    <a href="flappy.html"> Guide How to play Flappy Bird Game</a>Hope you have fun!
+                    </p>
+            </article>
+            <article>
+                <h3>Movie recommendation</h3>
+                <p>
+                    I also have a movie recommendation that you can check out
+                </p>
+                <a href="https://www.rophim.li/xem-phim/tieu-yeu-quai-nui-lang-lang.lvwvxbY9?ver=1">Movie Recommendation</a>
+                <figure>
+                    <img src="imgg/DUHI.png" alt="tieu-yeu-quai-nui-lang-lang" width="300" height="200">
+                    <figcaption>Tieu Yeu Quai Nui Lang Lang</figcaption>
+                </figure>
+                <figure>
+                    <img src="imgg/DUHI2.png" alt="tieu-yeu-quai-nui-lang-lang" width="300" height="150">
+                    <figcaption>Tieu Yeu Quai Nui Lang Lang</figcaption>
+                </figure>    
+            </article>
+        </section>
+
+        <section id="Holiday">
+            <h2>What i often do</h2>
+            <hr>
+            <table>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                </tr>
+                <tr>
+                    <td>
+                        <time datetime="07:00">7am</time>-<time datetime="08:00">8am</time>
+                    </td>
+                    <td>Breakfast and get ready for school</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">All holiday</td>
+                    <td>Learn coding</td>
+
+                </tr>
+                <tr>
+                    <td>Watch movie</td>
+                </tr>
+                <tr>
+                    <td>Play Game</td>
+                </tr>
+            </table>
+        </section>
+        <article id="Contact">
+            <h2>Contact me</h2>
+            <hr>
+            <p>
+                You can contact me via email at: khoimom@gmail.com to discuss more about coding, movies, or anything else! I so pleased to connect with fellow enthusiasts and share ideas.
+            </p>
+            <form action="mailto:khoimom@gmail.com">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone"><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                    <input type="submit" value="Send">
+                </fieldset>
+            </form>
+        </article>
+    </main>
+    <footer>
+    <a href="#">&copy; 2025 khoimom</a>
+    </footer>
+</body>
+
+</html>
